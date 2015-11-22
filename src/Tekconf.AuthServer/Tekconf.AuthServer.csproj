@@ -152,14 +152,12 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Certificates\DevRoot.cer" />
     <Content Include="Certificates\idsrv3test.cer" />
-    <Content Include="Certificates\idsrv3test.pfx" />
-    <Content Include="bin\DevRoot.cer" />
-    <Content Include="bin\idsrv3test.cer" />
-    <Content Include="bin\idsrv3test.pfx" />
-    <None Include="Properties\PublishProfiles\epttests.pubxml" />
-    <None Include="Properties\PublishProfiles\expensetrackeridsrv.pubxml" />
-    <None Include="Properties\PublishProfiles\pluralsightexpensetrackeridsrv.pubxml" />
-    <None Include="Properties\PublishProfiles\pluralsightidsrv.pubxml" />
+    <Content Include="Certificates\idsrv3test.pfx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+
+    <None Include="Properties\PublishProfiles\tekconfauth - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\tekconfauth - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
